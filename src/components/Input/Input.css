@@ -1,0 +1,32 @@
+.input__container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.input__container-error .input__field {
+  border-color: red;
+}
+
+.input__label {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.input__field {
+  padding: 8px;
+  font-size: 1rem;
+  outline: none;
+  border: 2px solid #0ebb2b;
+  border-radius: 4px;
+}
+
+.input__field:disabled {
+  border: 2px solid #a2a2a2;
+}
+
+.input__error {
+  color: red;
+  font-weight: 600;
+}
